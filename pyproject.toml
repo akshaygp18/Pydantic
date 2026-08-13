@@ -1,0 +1,19 @@
+[project]
+name = "pydantic-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "akshaygp18", email = "akshaygp41@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.13.4",
+]
+
+[project.scripts]
+pydantic-practice = "pydantic_practice:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
